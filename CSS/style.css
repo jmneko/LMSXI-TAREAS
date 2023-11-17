@@ -1,0 +1,60 @@
+/* HEADER */
+
+.header {
+  background-color: rgb(36, 66, 201);
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  font-size: 14px;
+}
+
+.nav__item {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+.nav__item:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* MAIN */
+
+.title {
+  font-size: 38px;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+.ingredients,
+.process {
+  font-size: large;
+  text-align: center;
+  border: 2px solid #2186f3;
+  margin: 30px 0 30px 0;
+}
+
+.process__item {
+  margin: 30px 0 15px 0;
+}
+
+.image__ingredients {
+  max-width: 100%;
+  display: block;
+  width: 60%;
+  margin: auto;
+}
+
+.image__process {
+  max-width: 35%;
+  display: block;
+  margin: auto;
+}
