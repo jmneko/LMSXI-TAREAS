@@ -71,7 +71,7 @@
   border-right: 1px solid #000;
 }
 
-.article2 {
+.aside {
   display: flex;
   justify-content: space-around;
 }
@@ -123,6 +123,13 @@ td {
   max-width: 35%;
   display: flex;
   margin: auto;
+}
+
+/* FORMULARIO */
+
+.form {
+  display: flex;
+  flex-direction: column;
 }
 
 /* FOOTER (Clases en comun) */
