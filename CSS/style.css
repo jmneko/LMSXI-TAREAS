@@ -1,0 +1,153 @@
+/* HEADER (clases en comun) */
+
+.header {
+  background-color: rgb(36, 66, 201);
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  font-size: 14px;
+}
+
+.nav__item {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+.nav__item:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* MAIN */
+
+/* index */
+
+.article1 {
+  margin-bottom: 5%;
+}
+
+.name {
+  text-align: center;
+  font-size: 48px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.principalImage {
+  width: 30%;
+}
+
+.data {
+  display: flex;
+  align-items: flex-start;
+}
+
+.studies,
+.profesion,
+.hobbies {
+  text-align: start;
+  width: 153px;
+  height: 228px;
+  padding: 3%;
+  flex-basis: 20%;
+  margin-right: 15px;
+}
+
+.item__studies,
+.item__profesion,
+.item__hobbies {
+  border-right: 1px solid #000;
+}
+
+.article2 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.table {
+  border: 2px solid #000;
+}
+
+th,
+td {
+  border: 1px solid #000;
+  padding: 18px;
+  text-align: center;
+}
+
+/* Pagina 1 */
+
+.title {
+  font-size: 38px;
+  text-align: center;
+}
+
+.subtitle {
+  text-align: center;
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+.ingredients,
+.process {
+  font-size: large;
+  text-align: center;
+  border: 2px solid #2186f3;
+  margin: 30px 0 30px 0;
+}
+
+.process__item {
+  margin: 30px 0 15px 0;
+}
+
+.image__ingredients {
+  max-width: 100%;
+  display: block;
+  width: 60%;
+  margin: auto;
+}
+
+.image__process {
+  max-width: 35%;
+  display: flex;
+  margin: auto;
+}
+
+/* FOOTER (Clases en comun) */
+
+footer {
+  margin-top: 5%;
+  border-top: 1px solid rgb(58, 115, 247);
+}
+
+.iconos {
+  margin-top: 1%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.icono {
+  box-sizing: content-box;
+  width: 30px;
+  height: auto;
+}
+
+.icono_nombre {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
