@@ -6,39 +6,89 @@
     <title>Formulario</title>
     <link rel="stylesheet" href="/CSS/style.css" />
   </head>
-  <body>
-         <!--HEADER-->
+  <body class="formBody">
+    <!--HEADER-->
 
     <header class="header">
-        <nav class="nav">
-          <ul class="nav__list">
-            <li><a href="index.html" , class="nav__item">Inicio</a></li>
-            <li><a href="Pagina_1.html" , class="nav__item">Receta</a></li>
-            <li><a href="formulario.html" , class="nav__item">Reserva</a></li>
-          </ul>
-        </nav>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="index.html" , class="nav__item">Inicio</a></li>
+          <li><a href="Pagina_1.html" , class="nav__item">Receta</a></li>
+          <li><a href="formulario.html" , class="nav__item">Reserva</a></li>
+        </ul>
+      </nav>
     </header>
-      <!-- MAIN -->
-  
-      <main>
-        <h1 class="name">RESERVA DE HOTEL</h1>
-        <section>
-            <article>
-                <div class="container">
+    <!-- MAIN -->
 
-                <form class="form" action="*.php" method="post">
-                    <label for="name">Nombre</label>
-                    <input type="text" id="name" name="name" required>
-                    <label for="lastname">Apellidos</label>
-                    <input type="text" id="lastname" name="lastname" required>
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                    <label for="phone">Telefono</label>
-                    <input type="number" id="phone" name="phone" required>
-                    <label for="night">Noches</label>
-                    <input type="number" id="night" name="night" required>     
-                </form>
-            </div>
-            </article>
+    <main>
+      <h1 class="formName">RESERVA DE HOTEL</h1>
+      <section>
+        <article>
+          <p class="data">Rellena tus datos</p>
+          <div class="form">
+            <form class="" action="*.php" method="post">
+              <div class="containerForm">
+                <input class="input" type="text" id="name" name="name" required />
+                <label class="label" for="name">Nombre</label>
+              </div>
+              <div class="containerForm">
+                <input class="input" type="text" id="lastname" name="lastname" required />
+                <label class="label" for="lastname">Apellidos</label>
+              </div>
+              <div class="containerForm">
+                <input class="input" type="email" id="email" name="email" required />
+                <label class="label" for="email">Email</label>
+              </div>
+              <div class="containerForm">
+                <input class="input" type="number" id="phone" name="phone" required />
+                <label class="label" for="phone">Telefono</label>
+              </div>
+              <div class="containerForm">
+                <input class="input" type="number" id="night" name="night" required />
+                <label class="label" for="night">Noches</label>
+              </div>
+              <label class="labelDate" for="entrance">Fecha de entrada</label>
+              <input class="inputDate" type="date" id="entrance" name="entrance" required />
+              <label class="labelDate" for="exit">Fecha de salida</label>
+              <input class="inputDate" type="date" id="exit" name="exit" required />
+              <div class="radio">
+                <p class="titleRadio">Escoje tu formato de habitacion:</p>
+                <input type="radio" name="radio" value="1" required />Simple<br />
+                <input type="radio" name="radio" value="2" />Doble<br />
+                <input type="radio" name="radio" value="3" />Matrimonio<br />
+              </div>
+              <div class="check">
+                <p class="titleCheck">Selecciona una o varias opciones si lo desea</p>
+                <input type="checkbox" name="check" value="4" />Desayuno<br />
+                <input type="checkbox" name="check" value="5" />Comida<br />
+                <input type="checkbox" name="check" value="6" />Cena<br />
+                <input type="checkbox" name="check" value="7" />Cama supletoria<br />
+              </div>
+              <p class="titleTextarea">Dejanos un comentario si lo crees oportuno</p>
+              <textarea name="comments" cols="60" rows="20"></textarea>
+              <div class="button">
+                <input class="btnSend" type="button" value="Enviar" />
+                <input class="btnDelete" type="button" value="Borrar" />
+              </div>
+            </form>
+          </div>
+        </article>
+      </section>
+    </main>
+    <!-- FOOTER -->
+
+    <footer>
+      <ul class="iconos">
+        <li>
+          <a href="https://github.com/jmneko" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="icono git iconoForm" /></a>
+        </li>
+
+        <li class="icono_nombre formNameFooter">Jorge Muñiz Tarrio</li>
+
+        <li>
+          <a href="https://www.linkedin.com/in/jorge-mu%C3%B1iz-tarrio/" target="_blank"> <img src="https://cdn-icons-png.flaticon.com/512/4401/4401412.png" class="icono linkedin iconoForm" /></a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
